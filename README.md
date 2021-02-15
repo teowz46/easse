@@ -1,6 +1,8 @@
 # EASSE
 [**EASSE**](https://www.aclweb.org/anthology/D19-3009/) (**E**asier **A**utomatic **S**entence **S**implification **E**valuation) is a Python 3 package aiming to facilitate and standardise automatic evaluation and comparison of Sentence Simplification systems. ([*What is Sentence Simplification?*](https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00370))
 
+**IMPORTANT NOTE**: This is my own personal version of this repo, which is modified to use with my own version of [access](https://www.github.com/teowz46/access), which itself is modified from the original to explicitly use UTF-8 encoding, otherwise the original code fails if you cannot change the locale settings of the terminal you are on to use UTF-8. 
+
 ### Features
 
 - Automatic evaluation metrics (e.g. SARI<sup>1</sup>, BLEU, SAMSA, etc.).
